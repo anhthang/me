@@ -12,31 +12,31 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.0.2",
-    "@commitlint/config-conventional": "21.0.2",
-    "@iconify-json/hugeicons": "^1.2.29",
-    "@iconify-json/simple-icons": "^1.2.86",
-    "@iconify-json/solar": "^1.2.5",
-    "@nuxt/content": "^3.14.0",
-    "@nuxt/eslint": "1.16.0",
-    "@takumi-rs/wasm": "1.8.6",
-    "eslint": "10.5.0",
+    "@commitlint/cli": "21.2.1",
+    "@commitlint/config-conventional": "21.2.0",
+    "@iconify-json/hugeicons": "^1.2.32",
+    "@iconify-json/simple-icons": "^1.2.93",
+    "@iconify-json/solar": "^1.2.6",
+    "@nuxt/content": "^3.15.2",
+    "@nuxt/eslint": "1.17.0",
+    "@takumi-rs/wasm": "2.7.1",
+    "eslint": "10.8.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.6",
-    "eslint-plugin-vue": "10.9.2",
+    "eslint-plugin-vue": "10.10.0",
     "husky": "9.1.7",
-    "lint-staged": "17.0.7",
-    "nuxt": "4.4.8",
-    "nuxt-og-image": "^6.6.0",
-    "prettier": "3.8.4",
-    "prettier-plugin-tailwindcss": "0.8.0",
+    "lint-staged": "17.3.0",
+    "nuxt": "4.5.2",
+    "nuxt-og-image": "^6.7.8",
+    "prettier": "3.9.6",
+    "prettier-plugin-tailwindcss": "0.8.1",
     "remark-reading-time": "2.1.0",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "dependencies": {
-    "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.9.0",
-    "@takumi-rs/core": "1.8.6",
-    "better-sqlite3": "^12.11.1"
+    "@nuxt/image": "2.1.0",
+    "@nuxt/ui": "4.10.0",
+    "@takumi-rs/core": "2.7.1",
+    "better-sqlite3": "^13.0.3"
   }
 }
