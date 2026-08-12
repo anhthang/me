@@ -30,13 +30,12 @@
     "nuxt-og-image": "^6.7.8",
     "prettier": "3.9.6",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "remark-reading-time": "2.1.0",
-    "typescript": "7.0.2"
+    "remark-reading-time": "2.1.0"
   },
   "dependencies": {
     "@nuxt/image": "2.1.0",
     "@nuxt/ui": "4.10.0",
     "@takumi-rs/core": "2.7.1",
-    "better-sqlite3": "^13.0.3"
+    "better-sqlite3": "^12.11.1"
   }
 }
