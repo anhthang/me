@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   content: {
     database: {
       type: 'd1',
-      bindingName: 'BLOG_DB',
+      bindingName: 'DB',
     },
     build: {
       markdown: {
