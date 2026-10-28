@@ -1,0 +1,46 @@
+// Workers Builds deploys the wrangler.json that Nitro generates in
+// .output/server, and `wrangler deploy` replaces the Worker's settings with
+// it: bindings and settings made only in the dashboard are dropped on every
+// deploy. Nitro merges this file into the generated config, so keep them
+// here. Plain-text variables set in the dashboard survive through
+// `keep_vars`, and secrets (e.g. NUXT_APP_SECRET) are always kept; set them
+// with `wrangler secret put <NAME> --name blog`.
+{
+  "name": "blog",
+  // Keep plain-text variables set in the dashboard
+  "keep_vars": true,
+  "routes": [{ "pattern": "anhthang.org", "custom_domain": true }],
+  "workers_dev": true,
+  "preview_urls": true,
+  // Nuxt Content stores its collections here (content.database in nuxt.config.ts)
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "blog-db",
+      "database_id": "3181324f-3fe8-44d7-a7ad-08129306f3c6"
+    }
+  ],
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": false
+    }
+  },
+  "placement": {
+    "mode": "smart"
+  },
+  "previews": {
+    "d1_databases": [
+      {
+        "binding": "DB",
+        "database_name": "blog-db",
+        "database_id": "3181324f-3fe8-44d7-a7ad-08129306f3c6"
+      }
+    ]
+  }
+}
