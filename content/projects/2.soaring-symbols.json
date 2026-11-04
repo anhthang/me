@@ -1,7 +1,7 @@
 {
   "name": "Soaring Symbols",
-  "url": "https://github.com/soaring-symbols/soaring-symbols",
-  "description": "A Curated Collection of Airline Logos & Icons in SVG",
+  "url": "https://soaringsymbols.org",
+  "description": "A curated collection of airline logos, icons, and tail designs in SVG, available as an npm package, on jsDelivr, and as a Raycast extension.",
   "icon": "solar:plain-3-bold-duotone",
   "repository": "https://github.com/soaring-symbols/soaring-symbols",
   "featured": true
