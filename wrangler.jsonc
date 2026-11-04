@@ -34,6 +34,10 @@
   "placement": {
     "mode": "smart"
   },
+  // CPU time per request, in milliseconds (paid plan only)
+  "limits": {
+    "cpu_ms": 30000
+  },
   "previews": {
     "d1_databases": [
       {
