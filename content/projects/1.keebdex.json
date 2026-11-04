@@ -1,7 +1,7 @@
 {
   "name": "Keebdex",
   "url": "https://keebdex.org",
-  "description": "A purpose-built platform for keyboard collectors to organize, sync, and share the full keyboard trinity: keyboards, keysets, and artisans. Browse one unified database, build collections and wishlists, submit new entries, and trade with fellow enthusiasts.",
+  "description": "The collector's index of artisan keycaps, keysets, and keyboards, and the place to keep track of your own collection. Look up any maker, sculpt, colorway, keyset, or group buy from one search.",
   "icon": "solar:palette-round-bold-duotone",
   "repository": "https://github.com/keebdex/keebdex",
   "featured": true
