@@ -34,4 +34,4 @@ How to decide:
 
 ## Uses page
 
-`content/uses/*.json` files are shown in filename order, one accordion group each. Keep the page short: a handful of groups (software, hardware, keyboards, graveyard) rather than a group per small category, and one short sentence per item. Retired tools go to `9.graveyard.json` with a note on why.
+`content/uses/*.json` files are shown in filename order, one accordion group each. Keep groups small and balanced, about 4–9 items each: Dev Tools, Apps & Services, Desk Setup (including office gear, marked "Work laptop." etc.), Everyday & Play, Keyboards, Graveyard. Put a new item into the closest existing group; split a group only when it grows past ~9 items. Items render in two columns, so keep each description to one short sentence. Retired tools go to `9.graveyard.json` with a note on why.

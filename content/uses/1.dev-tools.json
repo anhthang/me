@@ -1,6 +1,6 @@
 {
-  "title": "Software",
-  "description": "Apps, tools and services I use every day",
+  "title": "Dev Tools",
+  "description": "Editor, terminal and tools I code with",
   "body": [
     {
       "name": "Visual Studio Code",
@@ -55,54 +55,6 @@
       "description": "A soothing, cat-themed dark theme I use across my apps for a cozy and eye-friendly coding experience.",
       "icon": "solar:pallete-2-bold-duotone",
       "url": "https://catppuccin.com/"
-    },
-    {
-      "name": "Dia",
-      "description": "My chosen AI-native browser. A minimalist thought partner that has replaced Arc in my workflow.",
-      "icon": "solar:global-bold-duotone",
-      "url": "https://www.diabrowser.com/"
-    },
-    {
-      "name": "Raycast",
-      "description": "My powerful launcher for apps, workflows, and more to boost productivity - it saves me tons of time!",
-      "icon": "simple-icons:raycast",
-      "url": "https://raycast.com/"
-    },
-    {
-      "name": "Notion",
-      "description": "My all-in-one workspace for notes, tasks, projects, and wikis.",
-      "icon": "simple-icons:notion",
-      "url": "https://www.notion.so/"
-    },
-    {
-      "name": "yabai",
-      "description": "A tiling window manager for macOS for efficient screen organization.",
-      "icon": "simple-icons:yabai",
-      "url": "https://github.com/koekeishiya/yabai/"
-    },
-    {
-      "name": "1Password",
-      "description": "My password manager for keeping all my logins secure. No more struggling to remember complex passwords!",
-      "icon": "simple-icons:1password",
-      "url": "https://1password.com/"
-    },
-    {
-      "name": "2FAS",
-      "description": "My go-to TOTP app for managing two-factor authentication across all my accounts.",
-      "icon": "simple-icons:2fas",
-      "url": "https://2fas.com/"
-    },
-    {
-      "name": "Cloudflare",
-      "description": "My platform of choice for deploying and hosting web applications with ease, along with a powerful CDN and DDoS protection.",
-      "icon": "simple-icons:cloudflare",
-      "url": "https://www.cloudflare.com/"
-    },
-    {
-      "name": "Supabase",
-      "description": "My backend-as-a-service solution for managing databases, user authentication, and more.",
-      "icon": "simple-icons:supabase",
-      "url": "https://supabase.com/"
     }
   ]
 }

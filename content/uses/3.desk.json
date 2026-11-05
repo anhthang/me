@@ -1,6 +1,6 @@
 {
-  "title": "Hardware",
-  "description": "Gear on my desk, in my bag and at the office",
+  "title": "Desk Setup",
+  "description": "My desk at home and my gear at the office",
   "body": [
     {
       "name": "HyperWork Setup",
@@ -31,48 +31,6 @@
       "description": "M4 chip, 16GB unified memory, 512GB SSD.",
       "icon": "solar:laptop-bold-duotone",
       "url": "https://www.apple.com/macbook-pro/"
-    },
-    {
-      "name": "iPhone 17 Pro Max",
-      "description": "A19 Pro chip, 12GB RAM, 6.9-inch ProMotion display.",
-      "icon": "solar:iphone-bold-duotone",
-      "url": "https://www.apple.com/iphone-17-pro/"
-    },
-    {
-      "name": "Apple Watch Series 11",
-      "description": "S10 chip, Always-On Retina display, hypertension and sleep score.",
-      "icon": "solar:watch-square-bold-duotone",
-      "url": "https://www.apple.com/apple-watch-series-11/"
-    },
-    {
-      "name": "AirPods Pro 3",
-      "description": "H2 chip, IP57 water resistance, heart rate sensor.",
-      "icon": "solar:airbuds-bold-duotone",
-      "url": "https://www.apple.com/airpods-pro/"
-    },
-    {
-      "name": "ATH-M40x",
-      "description": "",
-      "icon": "solar:headphones-round-bold-duotone",
-      "url": "https://www.audio-technica.com/en-eu/ath-m40x"
-    },
-    {
-      "name": "FUJIFILM X-T30 II",
-      "description": "Lens: FUJINON XF35mmF2 R WR, FUJINON XF30mmF2.8 R LM WR Macro",
-      "icon": "solar:camera-minimalistic-bold-duotone",
-      "url": "https://fujifilm-x.com/global/products/cameras/x-t30-ii/"
-    },
-    {
-      "name": "Nintendo Switch",
-      "description": "Animal Crossing: New Horizons Edition",
-      "icon": "solar:gamepad-bold-duotone",
-      "url": "https://www.nintendo.com/us/store/products/nintendo-switch-animal-crossing-new-horizons-edition/"
-    },
-    {
-      "name": "Nintendo 2DS XL",
-      "description": "Poke Ball Edition",
-      "icon": "solar:gamepad-charge-bold-duotone",
-      "url": "https://www.nintendo.com/us/store/hardware/"
     },
     {
       "name": "HP ProBook 440 G9",
