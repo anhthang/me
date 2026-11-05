@@ -1,24 +1,12 @@
 {
-  "title": "Productivity",
-  "description": "Apps and systems that help me stay focused and efficient",
+  "title": "Apps & Services",
+  "description": "Apps and services that keep me organized",
   "body": [
     {
       "name": "Dia",
       "description": "My chosen AI-native browser. A minimalist thought partner that has replaced Arc in my workflow.",
-      "icon": "simple-icons:dia",
+      "icon": "solar:global-bold-duotone",
       "url": "https://www.diabrowser.com/"
-    },
-    {
-      "name": "1Password",
-      "description": "My password manager for keeping all my logins secure. No more struggling to remember complex passwords!",
-      "icon": "simple-icons:1password",
-      "url": "https://1password.com/"
-    },
-    {
-      "name": "2FAS",
-      "description": "My go-to TOTP app for managing two-factor authentication across all my accounts.",
-      "icon": "simple-icons:2fas",
-      "url": "https://2fas.com/"
     },
     {
       "name": "Raycast",
@@ -37,6 +25,18 @@
       "description": "A tiling window manager for macOS for efficient screen organization.",
       "icon": "simple-icons:yabai",
       "url": "https://github.com/koekeishiya/yabai/"
+    },
+    {
+      "name": "1Password",
+      "description": "My password manager for keeping all my logins secure. No more struggling to remember complex passwords!",
+      "icon": "simple-icons:1password",
+      "url": "https://1password.com/"
+    },
+    {
+      "name": "2FAS",
+      "description": "My go-to TOTP app for managing two-factor authentication across all my accounts.",
+      "icon": "simple-icons:2fas",
+      "url": "https://2fas.com/"
     },
     {
       "name": "Cloudflare",

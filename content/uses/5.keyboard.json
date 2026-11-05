@@ -3,6 +3,12 @@
   "description": "Mechanical keyboards I use and customize",
   "body": [
     {
+      "name": "NRD Kaze Mini - Stealth Black",
+      "description": "Built with HMX Yogurt V2 switches, using GMK Polybius",
+      "icon": "solar:keyboard-bold-duotone",
+      "url": "https://nrdesigns.co/products/kaze-mini"
+    },
+    {
       "name": "SINGAKBD Unikorn R2.2 - Berlin Blue",
       "description": "Built with Gateron Hippo Linear switches, using GMK Space Cadet II",
       "icon": "solar:keyboard-bold-duotone",

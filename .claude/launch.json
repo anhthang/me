@@ -1,0 +1,10 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "blog",
+      "url": "http://localhost:3001",
+      "port": 3001
+    }
+  ]
+}

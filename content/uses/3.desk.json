@@ -1,6 +1,6 @@
 {
-  "title": "Home Workspace",
-  "description": "My home workspace — tools and setup that support my personal projects",
+  "title": "Desk Setup",
+  "description": "My desk at home and my gear at the office",
   "body": [
     {
       "name": "HyperWork Setup",
@@ -25,6 +25,24 @@
       "description": "MagSpeed electromagnetic scrolling, tracks on any surface, USB-C charging.",
       "icon": "solar:mouse-bold-duotone",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
+    },
+    {
+      "name": "MacBook Pro 14-inch (M4)",
+      "description": "M4 chip, 16GB unified memory, 512GB SSD.",
+      "icon": "solar:laptop-bold-duotone",
+      "url": "https://www.apple.com/macbook-pro/"
+    },
+    {
+      "name": "HP ProBook 440 G9",
+      "description": "Work laptop. 14-inch display, Intel Core i7-1255U, 32GB RAM, 512GB SSD.",
+      "icon": "solar:laptop-bold-duotone",
+      "url": "https://www.hp.com/us-en/shop/mdp/probook-400-14-243573--1"
+    },
+    {
+      "name": "HyperWork Silentium",
+      "description": "Work mouse. Wireless connectivity, silent clicks, ergonomic design.",
+      "icon": "solar:mouse-bold-duotone",
+      "url": "https://hyperwork.vn/products/chuot-van-phong-khong-day-hyperwork-ms01"
     }
   ]
 }

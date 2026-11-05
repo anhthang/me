@@ -22,9 +22,9 @@
         </template>
 
         <template #body="{ item: { meta } }">
-          <UPageList class="gap-6">
+          <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
             <CardUse v-for="(item, idx) in meta.body" :key="idx" :item="item" />
-          </UPageList>
+          </div>
         </template>
       </UAccordion>
     </div>

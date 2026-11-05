@@ -13,7 +13,7 @@
     <template #content>
       <UCommandPalette
         :groups="groups"
-        icon="hugeicons:search-01"
+        icon="solar:magnifer-line-duotone"
         @update:model-value="onCommandClick"
       />
     </template>
@@ -34,7 +34,7 @@ const toggleCmd = () => {
 const left = [
   {
     to: '/',
-    icon: 'hugeicons:home-01',
+    icon: 'solar:home-2-line-duotone',
   },
 ]
 
@@ -42,29 +42,29 @@ const middle = computed(() => [
   {
     label: 'Projects',
     to: '/projects',
-    icon: 'hugeicons:repository',
+    icon: 'solar:folder-with-files-line-duotone',
   },
   {
     label: 'Posts',
     to: '/posts',
     active: route.path.startsWith('/posts'),
-    icon: 'hugeicons:note-edit',
+    icon: 'solar:notes-line-duotone',
   },
   {
     label: 'Uses',
     to: '/uses',
-    icon: 'hugeicons:shopping-bag-favorite',
+    icon: 'solar:bag-heart-line-duotone',
   },
   {
     label: 'About',
     to: '/about',
-    icon: 'hugeicons:user-status',
+    icon: 'solar:user-id-line-duotone',
   },
 ])
 
 const right = computed(() => [
   {
-    icon: 'hugeicons:command',
+    icon: 'solar:command-line-duotone',
     class: 'cursor-pointer',
     onSelect: () => {
       toggleCmd()
@@ -82,7 +82,7 @@ const groups = computed(() => [
       {
         label: 'Now',
         to: '/now',
-        icon: 'hugeicons:pulse-02',
+        icon: 'solar:pulse-2-line-duotone',
       },
     ],
   },
@@ -117,13 +117,13 @@ const groups = computed(() => [
       {
         label: 'bui at anhthang dot org',
         to: 'mailto:bui@anhthang.org',
-        icon: 'hugeicons:mail-at-sign-02',
+        icon: 'solar:letter-line-duotone',
       },
       {
         label: 'Buy Me a Coffee',
         to: 'https://www.buymeacoffee.com/anhthang',
         target: '_blank',
-        icon: 'hugeicons:coffee-02',
+        icon: 'solar:cup-hot-line-duotone',
       },
     ],
   },

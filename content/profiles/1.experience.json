@@ -4,7 +4,7 @@
   "body": [
     {
       "title": "Platform Engineer",
-      "icon": "hugeicons:bash",
+      "icon": "solar:server-path-bold-duotone",
       "company": "VPBank",
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "hugeicons:developer",
+      "icon": "solar:code-square-bold-duotone",
       "company": "TUI",
       "location": "Hanoi, Vietnam",
       "start": "Jan 2022",
@@ -36,7 +36,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "hugeicons:developer",
+      "icon": "solar:code-square-bold-duotone",
       "company": "Viemart LLC",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2021",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "hugeicons:developer",
+      "icon": "solar:code-square-bold-duotone",
       "company": "ABIVIN",
       "location": "Hanoi, Vietnam",
       "start": "Dec 2020",
@@ -68,7 +68,7 @@
     },
     {
       "title": "Full-Stack Developer",
-      "icon": "hugeicons:source-code",
+      "icon": "solar:code-bold-duotone",
       "company": "KMSoft",
       "location": "Hanoi, Vietnam",
       "start": "Apr 2020",
@@ -85,7 +85,7 @@
     },
     {
       "title": "Software Development Team Lead",
-      "icon": "hugeicons:source-code",
+      "icon": "solar:users-group-rounded-bold-duotone",
       "company": "GoQuo",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2015",
@@ -94,7 +94,7 @@
       "slot": "description",
       "roles": [
         {
-          "icon": "hugeicons:java-script",
+          "icon": "solar:users-group-rounded-bold-duotone",
           "title": "Software Development Team Lead",
           "date": "Jan 2018 - Mar 2020",
           "details": [
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "icon": "hugeicons:java-script",
+          "icon": "simple-icons:nodedotjs",
           "title": "Node.js Developer",
           "date": "Mar 2015 - Dec 2017",
           "details": [

@@ -6,7 +6,7 @@ tags: [typos, crate-ci]
 links:
   - to: https://github.com/crate-ci/typos
     label: crate-ci/typos
-    icon: hugeicons:github
+    icon: simple-icons:github
     target: _blank
 ---
 

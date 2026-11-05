@@ -6,12 +6,12 @@ tags: ['soaring-symbols', 'svg', 'open-source', 'aviation']
 links:
   - to: https://soaringsymbols.org
     label: soaringsymbols.org
-    icon: hugeicons:airplane-01
+    icon: solar:plain-3-line-duotone
     target: _blank
     color: info
   - to: https://github.com/soaring-symbols/soaring-symbols
     label: GitHub
-    icon: hugeicons:github
+    icon: simple-icons:github
     target: _blank
   - to: https://www.npmjs.com/package/soaring-symbols
     label: npm
