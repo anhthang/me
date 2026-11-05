@@ -1,0 +1,90 @@
+{
+  "title": "Hardware",
+  "description": "Gear on my desk, in my bag and at the office",
+  "body": [
+    {
+      "name": "HyperWork Setup",
+      "description": "Core Desk (160×75cm), T9 Pro III Monitor Arm, Steel Drawer, and Cable Management Tray.",
+      "icon": "solar:server-bold-duotone",
+      "url": "https://hyperwork.vn/"
+    },
+    {
+      "name": "Mac Mini M1",
+      "description": "Apple M1 chip, 16GB unified memory, 256GB SSD.",
+      "icon": "solar:cpu-bold-duotone",
+      "url": "https://www.apple.com/mac-mini/"
+    },
+    {
+      "name": "LG 34GN850-B",
+      "description": "34-inch UWQHD (3440x1440), 160Hz refresh rate, Nano IPS, G-Sync compatible.",
+      "icon": "solar:display-bold-duotone",
+      "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
+    },
+    {
+      "name": "MX Anywhere 3 for Mac",
+      "description": "MagSpeed electromagnetic scrolling, tracks on any surface, USB-C charging.",
+      "icon": "solar:mouse-bold-duotone",
+      "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
+    },
+    {
+      "name": "MacBook Pro 14-inch (M4)",
+      "description": "M4 chip, 16GB unified memory, 512GB SSD.",
+      "icon": "solar:laptop-bold-duotone",
+      "url": "https://www.apple.com/macbook-pro/"
+    },
+    {
+      "name": "iPhone 17 Pro Max",
+      "description": "A19 Pro chip, 12GB RAM, 6.9-inch ProMotion display.",
+      "icon": "solar:iphone-bold-duotone",
+      "url": "https://www.apple.com/iphone-17-pro/"
+    },
+    {
+      "name": "Apple Watch Series 11",
+      "description": "S10 chip, Always-On Retina display, hypertension and sleep score.",
+      "icon": "solar:watch-square-bold-duotone",
+      "url": "https://www.apple.com/apple-watch-series-11/"
+    },
+    {
+      "name": "AirPods Pro 3",
+      "description": "H2 chip, IP57 water resistance, heart rate sensor.",
+      "icon": "solar:airbuds-bold-duotone",
+      "url": "https://www.apple.com/airpods-pro/"
+    },
+    {
+      "name": "ATH-M40x",
+      "description": "",
+      "icon": "solar:headphones-round-bold-duotone",
+      "url": "https://www.audio-technica.com/en-eu/ath-m40x"
+    },
+    {
+      "name": "FUJIFILM X-T30 II",
+      "description": "Lens: FUJINON XF35mmF2 R WR, FUJINON XF30mmF2.8 R LM WR Macro",
+      "icon": "solar:camera-minimalistic-bold-duotone",
+      "url": "https://fujifilm-x.com/global/products/cameras/x-t30-ii/"
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "Animal Crossing: New Horizons Edition",
+      "icon": "solar:gamepad-bold-duotone",
+      "url": "https://www.nintendo.com/us/store/products/nintendo-switch-animal-crossing-new-horizons-edition/"
+    },
+    {
+      "name": "Nintendo 2DS XL",
+      "description": "Poke Ball Edition",
+      "icon": "solar:gamepad-charge-bold-duotone",
+      "url": "https://www.nintendo.com/us/store/hardware/"
+    },
+    {
+      "name": "HP ProBook 440 G9",
+      "description": "Work laptop. 14-inch display, Intel Core i7-1255U, 32GB RAM, 512GB SSD.",
+      "icon": "solar:laptop-bold-duotone",
+      "url": "https://www.hp.com/us-en/shop/mdp/probook-400-14-243573--1"
+    },
+    {
+      "name": "HyperWork Silentium",
+      "description": "Work mouse. Wireless connectivity, silent clicks, ergonomic design.",
+      "icon": "solar:mouse-bold-duotone",
+      "url": "https://hyperwork.vn/products/chuot-van-phong-khong-day-hyperwork-ms01"
+    }
+  ]
+}
