@@ -53,7 +53,7 @@
     {
       "name": "Catppuccin",
       "description": "A soothing, cat-themed dark theme I use across my apps for a cozy and eye-friendly coding experience.",
-      "icon": "solar:pallete-2-bold",
+      "icon": "solar:pallete-2-bold-duotone",
       "url": "https://catppuccin.com/"
     }
   ]

@@ -6,7 +6,7 @@ tags: [code-extensions, xml2json, xmlbuilder]
 links:
   - to: https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json
     label: Marketplace
-    icon: hugeicons:visual-studio-code
+    icon: simple-icons:visualstudiocode
     target: _blank
 ---
 

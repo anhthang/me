@@ -6,7 +6,7 @@ tags: ['dotfiles', 'sync', 'settings']
 links:
   - to: https://github.com/anhthang/dotfiles
     label: ~/.dotfiles
-    icon: hugeicons:git-fork
+    icon: solar:branching-paths-up-line-duotone
     target: _blank
 ---
 

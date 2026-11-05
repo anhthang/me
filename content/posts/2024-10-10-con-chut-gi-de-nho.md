@@ -6,12 +6,12 @@ tags: []
 links:
   - to: https://www.facebook.com/photo/?fbid=10150409258186061&set=a.10150408374076061
     label: Facebook
-    icon: hugeicons:facebook-02
+    icon: simple-icons:facebook
     target: _blank
     color: info
   - to: https://www.nxbtre.com.vn/diem-tin/tro-lai-hoc-tro-cuoc-thi-tim-hieu-22-tac-pham-tuoi-hoc-tro-cua-nha-van-nguyen-nhat-anh-2188.html
     label: NXB Tre
-    icon: hugeicons:news
+    icon: solar:document-text-line-duotone
     target: _blank
 ---
 
