@@ -31,36 +31,37 @@ const toggleCmd = () => {
   isOpen.value = !isOpen.value
 }
 
-const left = [
-  {
-    to: '/',
-    icon: 'solar:home-2-line-duotone',
-  },
+// The active route's icon switches from line-duotone to bold-duotone
+const isActive = (to) =>
+  to === '/'
+    ? route.path === '/'
+    : route.path === to || route.path.startsWith(`${to}/`)
+
+const navIcon = (name, active) =>
+  `solar:${name}-${active ? 'bold' : 'line'}-duotone`
+
+const pages = [
+  { label: 'Projects', to: '/projects', icon: 'folder-with-files' },
+  { label: 'Posts', to: '/posts', icon: 'notes' },
+  { label: 'Uses', to: '/uses', icon: 'bag-heart' },
+  { label: 'About', to: '/about', icon: 'user-circle' },
 ]
 
-const middle = computed(() => [
+const left = computed(() => [
   {
-    label: 'Projects',
-    to: '/projects',
-    icon: 'solar:folder-with-files-line-duotone',
-  },
-  {
-    label: 'Posts',
-    to: '/posts',
-    active: route.path.startsWith('/posts'),
-    icon: 'solar:notes-line-duotone',
-  },
-  {
-    label: 'Uses',
-    to: '/uses',
-    icon: 'solar:bag-heart-line-duotone',
-  },
-  {
-    label: 'About',
-    to: '/about',
-    icon: 'solar:user-id-line-duotone',
+    to: '/',
+    active: isActive('/'),
+    icon: navIcon('home-2', isActive('/')),
   },
 ])
+
+const middle = computed(() =>
+  pages.map(({ icon, ...page }) => ({
+    ...page,
+    active: isActive(page.to),
+    icon: navIcon(icon, isActive(page.to)),
+  })),
+)
 
 const right = computed(() => [
   {
@@ -78,7 +79,10 @@ const groups = computed(() => [
     id: 'links',
     label: 'Go to',
     items: [
-      ...middle.value,
+      ...pages.map(({ icon, ...page }) => ({
+        ...page,
+        icon: navIcon(icon, false),
+      })),
       {
         label: 'Now',
         to: '/now',

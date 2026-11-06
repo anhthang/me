@@ -25,6 +25,7 @@ How to decide:
 - A real product or brand with a logo in simple-icons gets the logo. If simple-icons has no logo for it, use the closest Solar icon by meaning in the style for its place (e.g. Dia browser → `solar:global-bold-duotone`).
 - Don't mix in plain `-linear`, `-bold`, `-outline` or `-broken` Solar variants.
 - Choose by meaning, not by look: one concept should keep the same icon across the site (e.g. `pallete-2` for color themes, `keyboard` for keyboards).
+- Navbar links are the one place that switches style: the active route's icon uses `bold-duotone`, the rest `line-duotone` (see `navIcon` in `app/components/layout/Navbar.vue`). Command palette entries for the same pages always stay `line-duotone`.
 - When Nuxt UI adds a new key to `ui.icons`, override it in `app/app.config.ts` so no Lucide default slips through.
 - Before using a name, check that it exists:
 
