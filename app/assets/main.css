@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+/* Classes written in posts' inline HTML */
+@source "../../content";
+
 @theme {
   --font-sans: 'Reddit Sans', sans-serif;
   --font-mono: 'Reddit Mono', monospace;
