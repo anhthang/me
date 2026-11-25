@@ -6,8 +6,13 @@ updated: 2026-11-25
 tags: ['soaring-symbols', 'svg', 'open-source', 'aviation']
 links:
   - to: https://soaringsymbols.org
-    label: soaringsymbols.org
-    icon: solar:plain-3-line-duotone
+    label: Soaring Symbols
+    avatar:
+      src: https://soaringsymbols.org/brand/icon.svg
+      alt: Soaring Symbols
+      ui:
+        root: rounded-none bg-transparent
+        image: object-contain
     target: _blank
     color: info
   - to: https://github.com/soaring-symbols/soaring-symbols
