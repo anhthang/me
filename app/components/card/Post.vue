@@ -20,7 +20,11 @@
         >
           <span class="h-4 w-0.5 rounded-full bg-accented"> </span>
         </span>
-        {{ getReadableDate(post.meta.published) }} -
+        {{ getReadableDate(post.meta.published) }}
+        <template v-if="post.meta.updated">
+          · Updated {{ getReadableDate(post.meta.updated) }}
+        </template>
+        -
         {{ post.meta?.readingTime.text }}
       </time>
     </template>

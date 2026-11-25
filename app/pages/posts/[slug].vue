@@ -13,15 +13,22 @@
     <UPageBody>
       <ContentRenderer v-if="page.body" :value="page" prose />
 
-      <div class="flex gap-2">
-        <UBadge
-          v-for="tag in page.meta.tags"
-          :key="tag"
-          color="neutral"
-          variant="soft"
-        >
-          #{{ tag }}
-        </UBadge>
+      <div class="flex flex-wrap items-center justify-between gap-2">
+        <div class="flex gap-2">
+          <UBadge
+            v-for="tag in page.meta.tags"
+            :key="tag"
+            color="neutral"
+            variant="soft"
+          >
+            #{{ tag }}
+          </UBadge>
+        </div>
+
+        <span v-if="updated" class="text-sm text-muted">
+          Updated on
+          <time :datetime="page.meta.updated">{{ updated }}</time>
+        </span>
       </div>
 
       <USeparator v-if="surround?.filter(Boolean).length" />
@@ -51,11 +58,21 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
 
+const updated = page.value?.meta?.updated
+  ? new Date(page.value.meta.updated).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    })
+  : undefined
+
 useSeoMeta({
   title,
   description,
   ogDescription: description,
   ogTitle: title,
+  articlePublishedTime: page.value?.meta?.published,
+  articleModifiedTime: page.value?.meta?.updated,
 })
 
 defineOgImage('Blog', {
